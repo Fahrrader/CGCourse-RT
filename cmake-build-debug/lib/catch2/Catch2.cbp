@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Catch2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\catch2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\catch2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

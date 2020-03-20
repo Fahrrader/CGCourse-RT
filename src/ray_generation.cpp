@@ -31,6 +31,7 @@ void RayGenerationApp::DrawScene()
 {
     for (short x = 0; x < width; x++)
     {
+#pragma omp parallel for
         for (short y = 0; y < height; y++)
         {
             Ray ray = camera.GetCameraRay(x, y);

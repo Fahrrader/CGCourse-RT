@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -fopenmp -g  -Wl,--enable-auto-import  CMakeFiles/reflection.dir/src/reflection_main.cpp.o  -o reflection.exe -Wl,--out-implib,libreflection.dll.a -Wl,--major-image-version,0,--minor-image-version,0 libcg.a 

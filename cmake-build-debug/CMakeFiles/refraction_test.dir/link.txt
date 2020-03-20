@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -fopenmp -g  -Wl,--enable-auto-import  CMakeFiles/refraction_test.dir/tests/refraction_tests.cpp.o  -o refraction_test.exe -Wl,--out-implib,librefraction_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 libcg.a 

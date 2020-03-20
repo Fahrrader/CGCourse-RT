@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\catch2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="refraction_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/refraction_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 refraction_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="refraction_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/refraction_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 refraction_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reflection_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/reflection_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 reflection_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reflection_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/reflection_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 reflection_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadowray_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/shadowray_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 shadowray_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadowray_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/shadowray_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 shadowray_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reflection">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/reflection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 reflection"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reflection/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/reflection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 reflection/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadowray_main">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/shadowray_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 shadowray_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shadowray_main/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/shadowray_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 shadowray_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_generation_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/ray_generation_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_generation_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_generation_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/ray_generation_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_generation_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighting_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lighting_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 lighting_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighting_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lighting_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 lighting_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mt_algorithm_test">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/mt_algorithm_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 mt_algorithm_test"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mt_algorithm_test/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/mt_algorithm_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 mt_algorithm_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="refraction">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/refraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 refraction"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="refraction/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/refraction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 refraction/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mt_algorithm_main">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/mt_algorithm_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 mt_algorithm_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mt_algorithm_main/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/mt_algorithm_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 mt_algorithm_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_generation">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/ray_generation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_generation"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ray_generation/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/ray_generation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 ray_generation/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cg">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/libcg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 cg"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cg/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/libcg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 cg/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighting_main">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lighting_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 lighting_main"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lighting_main/fast">
+				<Option output="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lighting_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include/catch2"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/linalg"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/stb"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/tinyobjloader"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/src"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/tests"/>
+					<Add directory="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/single_include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 lighting_main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/GitHub/CGCourse-RT/cmake-build-debug/lib/catch2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/aabb.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/aabb.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/aabb_main.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/anti_aliasing.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/anti_aliasing.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/anti_aliasing_main.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/bvh.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/bvh.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/bvh_main.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/denoising.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/denoising.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/denoising_main.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/denoising_main.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/lighting.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/lighting.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/lighting_main.cpp">
+			<Option target="cg"/>
+			<Option target="lighting_main"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/mt_algorithm.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/mt_algorithm.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/mt_algorithm_main.cpp">
+			<Option target="mt_algorithm_main"/>
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/ray_generation.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/ray_generation.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/ray_generation_main.cpp">
+			<Option target="ray_generation"/>
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/reflection.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/reflection.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/reflection_main.cpp">
+			<Option target="reflection"/>
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/refraction.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/refraction.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/refraction_main.cpp">
+			<Option target="refraction"/>
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/shadow_rays.cpp">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/shadow_rays.h">
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/src/shadow_rays_main.cpp">
+			<Option target="shadowray_main"/>
+			<Option target="cg"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/lighting_tests.cpp">
+			<Option target="lighting_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/mt_algorithm_tests.cpp">
+			<Option target="mt_algorithm_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/ray_generation_tests.cpp">
+			<Option target="ray_generation_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/reflection_tests.cpp">
+			<Option target="reflection_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/refraction_tests.cpp">
+			<Option target="refraction_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/tests/shadow_rays_tests.cpp">
+			<Option target="shadowray_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/CGCourse-RT/lib/catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\catch2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

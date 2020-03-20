@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -fopenmp -g  -Wl,--enable-auto-import  CMakeFiles/mt_algorithm_test.dir/tests/mt_algorithm_tests.cpp.o  -o mt_algorithm_test.exe -Wl,--out-implib,libmt_algorithm_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 libcg.a 
